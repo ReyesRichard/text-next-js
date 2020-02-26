@@ -3,7 +3,6 @@ import fetch from 'isomorphic-unfetch'
 import {Fragment} from 'react'
 import '../../stylesheets/main.sass'
 
-// import fs from 'fs'
 // import dotenv from 'dotenv'
 
 const Users = ({users})=>{

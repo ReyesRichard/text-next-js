@@ -9,11 +9,10 @@ const Blog = ({ posts, users })=> {
   	<Fragment>
   		<h1>Blog</h1>
   		{posts.map((post) => (
-  			
-	 		<div>
+	 		<div key={post.id}>
 	 			<span> {post.id} .- </span>
 	 			<span>Titulo: {post.title}</span>
-	 			// <span> {post.body}</span>
+	 			{/* <span> {post.body}</span> */}
 	 			<div> 
 	 				<span>User: {post.userId}</span>
 	 				<span> User: {users.filter(user => user.id === post.userId)[0].name }</span>
