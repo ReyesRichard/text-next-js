@@ -9,7 +9,6 @@ const Users = ({users})=>{
     return (
         <Fragment>
             <h1>Usuarios:</h1>
-            {/* {JSON.stringify(users)} */}
             {users.map(user =>(
                 <div key={user.id}>
                     <span>{user.id} </span>

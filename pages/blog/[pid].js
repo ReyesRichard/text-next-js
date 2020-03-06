@@ -22,6 +22,10 @@ const Post = ({post}) => {
 
 	return (
 	  	<Fragment>
+				<Head>
+					<title>{post.title} | Blog </title>
+					<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+				</Head>
 			  { post  ? 
 			  	post.id ?
 					<Fragment>

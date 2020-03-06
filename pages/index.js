@@ -3,7 +3,7 @@ import Head from 'next/head'
 const Home = () => (
   <div className="container">
     <Head>
-      <title>Create Next App</title>
+      <title>Test next js app</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
@@ -21,7 +21,7 @@ const Home = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        Powered by <img src="/zeit.svg" alt="ZEIT Logo" />
+        Test footer
       </a>
     </footer>
 
